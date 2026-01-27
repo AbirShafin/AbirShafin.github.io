@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Garamond', 'EB Garamond', 'Cormorant Garamond', Georgia, serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -69,7 +69,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #575353;
   }
   button {
     background-color: #f9f9f9;

@@ -24,11 +24,11 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Project Alpha",
+      title: "Project - ToDoApp",
       description: "A cutting-edge web application built with React and TypeScript, featuring real-time data synchronization and modern UI/UX."
     },
     {
-      title: "Project Beta",
+      title: "Project simple calculator",
       description: "Full-stack e-commerce platform with payment integration, inventory management, and responsive design."
     },
     {
@@ -44,6 +44,7 @@ export default function Portfolio() {
         <p className={visible ? "fade-in-delay-1" : ""}>
           Crafting digital experiences with passion and precision
         </p>
+        
         <div className="portfolio-grid">
           {projects.map((project, index) => (
             <div 

@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Hero />
       <Portfolio />
+      <Contact />
     </>
   );
 }
