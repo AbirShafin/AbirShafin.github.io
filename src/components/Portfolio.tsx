@@ -25,15 +25,15 @@ export default function Portfolio() {
   const projects = [
     {
       title: "Project - ToDoApp",
-      description: "A cutting-edge web application built with React and TypeScript, featuring real-time data synchronization and modern UI/UX."
+      description: "A to do app with auth feature."
     },
     {
       title: "Project simple calculator",
-      description: "Full-stack e-commerce platform with payment integration, inventory management, and responsive design."
+      description: "A simple calculator I made with React as a project for submission to get into BUCC R&D department."
     },
     {
       title: "Project Gamma",
-      description: "AI-powered analytics dashboard with interactive visualizations and predictive modeling capabilities."
+      description: "There is no project Gamma."
     }
   ];
 
@@ -42,7 +42,9 @@ export default function Portfolio() {
       <div className="portfolio-content">
         <h2 className={visible ? "fade-in" : ""}>My Portfolio</h2>
         <p className={visible ? "fade-in-delay-1" : ""}>
-          Crafting digital experiences with passion and precision
+          I like to learn new things, and get good at them if I enjoy it.
+          I am from Dhaka, Bangladesh. I did my HSC on Science from Dhaka City College & I am currently
+          studying CSE in Brac University. Studying DSA currently and loving it!
         </p>
         
         <div className="portfolio-grid">
