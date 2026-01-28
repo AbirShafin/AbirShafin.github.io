@@ -29,7 +29,7 @@ export default function Portfolio() {
       link: undefined
     },
     {
-      title: "Project simple calculator",
+      title: "Project - Simple calculator",
       description: "A simple calculator I made with React as a project for submission to get into BUCC R&D department.",
       link: "https://simple-calculator-shafin141.vercel.app/"
     },
@@ -63,7 +63,7 @@ export default function Portfolio() {
                   href={project.link} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  style={{ color: '#61dafb', textDecoration: 'none', marginTop: '0.5rem', display: 'inline-block' }}
+                  style={{ color: '#011920', textDecoration: 'none', marginTop: '0.5rem', display: 'inline-block' }}
                 >
                   View Project →
                 </a>
