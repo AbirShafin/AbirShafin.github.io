@@ -26,7 +26,7 @@ export default function Portfolio() {
     {
       title: "Project - ToDoApp",
       description: "A to do app with auth feature.",
-      link: undefined
+      link: "https://todo-app-shafin141.vercel.app/"
     },
     {
       title: "Project - Simple calculator",
@@ -41,13 +41,13 @@ export default function Portfolio() {
   ];
 
   return (
-    <section id="portfolio" className="portfolio-section">
+    <section id="portfolio" className="portfolio-section" >
       <div className="portfolio-content">
         <h2 className={visible ? "fade-in" : ""}>My Portfolio</h2>
         <p className={visible ? "fade-in-delay-1" : ""}>
           I like to learn new things, and get good at them if I enjoy it.
-          I am from Dhaka, Bangladesh. I did my HSC on Science from Dhaka City College & I am currently
-          studying CSE in Brac University. Studying DSA currently and loving it!
+          I am from Dhaka, Bangladesh. I did my SSC from Motijheel Govt. Boys High School & HSC on Science from Dhaka City College.
+          I am currently studying CSE in Brac University. Studying DSA currently and loving it!
         </p>
         
         <div className="portfolio-grid">
