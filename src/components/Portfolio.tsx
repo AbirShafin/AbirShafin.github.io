@@ -63,7 +63,7 @@ export default function Portfolio() {
                   href={project.link} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  style={{ color: '#011920', textDecoration: 'none', marginTop: '0.5rem', display: 'inline-block' }}
+                  style={{ color: '#010cea', textDecoration: 'none', marginTop: '0.5rem', display: 'inline-block' }}
                 >
                   View Project →
                 </a>
