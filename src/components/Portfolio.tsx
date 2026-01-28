@@ -25,15 +25,18 @@ export default function Portfolio() {
   const projects = [
     {
       title: "Project - ToDoApp",
-      description: "A to do app with auth feature."
+      description: "A to do app with auth feature.",
+      link: undefined
     },
     {
       title: "Project simple calculator",
-      description: "A simple calculator I made with React as a project for submission to get into BUCC R&D department."
+      description: "A simple calculator I made with React as a project for submission to get into BUCC R&D department.",
+      link: "https://simple-calculator-shafin141.vercel.app/"
     },
     {
       title: "Project Gamma",
-      description: "There is no project Gamma."
+      description: "There is no project Gamma.",
+      link: undefined
     }
   ];
 
@@ -55,6 +58,16 @@ export default function Portfolio() {
             >
               <h3>{project.title}</h3>
               <p>{project.description}</p>
+              {project.link && (
+                <a 
+                  href={project.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  style={{ color: '#61dafb', textDecoration: 'none', marginTop: '0.5rem', display: 'inline-block' }}
+                >
+                  View Project →
+                </a>
+              )}
             </div>
           ))}
         </div>
