@@ -35,7 +35,7 @@ export default function Portfolio() {
     },
     {
       title: "Project Gamma",
-      description: "There is no project Gamma.",
+      description: "There is no project Gamma. Yet.",
       link: undefined
     }
   ];
