@@ -46,7 +46,7 @@ export default function Portfolio() {
         <h2 className={visible ? "fade-in" : ""}>My Portfolio</h2>
         <p className={visible ? "fade-in-delay-1" : ""}>
           I like to learn new things, and get good at them if I enjoy it.
-          I am from Dhaka, Bangladesh. I did my SSC from Motijheel Govt. Boys High School & HSC on Science from Dhaka City College.
+          I am from Dhaka, Bangladesh. I did my SSC on Science from Motijheel Govt. Boys High School & HSC on Science from Dhaka City College.
           I am currently studying CSE in Brac University. Studying DSA currently and loving it!
         </p>
         
